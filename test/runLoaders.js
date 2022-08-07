@@ -3,6 +3,8 @@ const path = require("path");
 const fs = require("fs");
 const runLoaders = require("../lib/LoaderRunner").runLoaders;
 
+const fixtures = path.resolve(__dirname, "fixtures");
+
 describe("test runLoaders", () => {
     it("should process only a resource",  (done) => {
 		runLoaders({
