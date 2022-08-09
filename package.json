@@ -2,9 +2,9 @@
   "name": "awesome-runner-loader",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/LoaderRunner.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec --timeout 10000"
   },
   "keywords": [],
   "author": "",
