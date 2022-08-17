@@ -3,5 +3,6 @@ exports.pitch = function() {
 
 	setTimeout(function() {
 		done(null, undefined, "not undefined");
+		// done(null, "not undefined", undefined);
 	}, 0);
 };
